@@ -1,0 +1,208 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wilson Resume/CV
+% XeLaTeX Template
+% Version 1.0 (22/1/2015)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Howard Wilson (https://github.com/watsonbox/cv_template_2004) with
+% extensive modifications by Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,hidelinks]{article} % Default font size
+
+\input{structure.tex} % Include the file specifying document layout
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Adam J. Gray -- Résumé} % Print the main header
+
+%------------------------------------------------
+
+\parbox{0.5\textwidth}{ % First block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Address} \> Unit A 8/F 58-62 Caine Rd\\ % Address line 1
+\> Mid-Levels, Hong Kong \\ % Address line 2
+{\bf Date of Birth} \> 23$^{rd}$ May 1991 \\ % Date of birth
+{\bf Nationality} \> Australian  % Nationality
+\end{tabbing}}
+\hfill % Horizontal space between the two blocks
+\parbox{0.5\textwidth}{ % Second block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf LinkedIn } \> \href{https://hk.linkedin.com/in/adam-gray-56852364}{linkedin.com/in/adam-gray-56852364} \\ % Mobile phone
+{\bf GitHub } \> \href{https://github.com/adamjoshuagray}{github.com/adamjoshuagray} \\
+{\bf Mobile Phone} \> +852 6079 5613 \\ % Mobile phone
+{\bf Email} \> \href{mailto:adam.joshua.gray@gmail.com}{adam.joshua.gray@gmail.com} \\ % Email address
+\end{tabbing}}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL PROFILE
+%----------------------------------------------------------------------------------------
+
+\section{Personal Profile}
+
+Adam has worked extensively in algorithmic trading over a number of years. He has both buy-side and sell-side
+experience and a strong understanding of market microstructure. Adam is a motivated and energetic individual who
+is constantly looking to learn more and develop his skills. Adam is looking for a role where he can use his skills
+to have a direct impact on PnL.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education / Awards}
+
+\tabbedblock{
+\bf{2010-2014} \> BSc in Advanced Mathematics - University of New South Wales, Australia \\[5pt]
+\>\+
+\textit{First Class Honors in Fractional Calculus}
+}
+
+%------------------------------------------------
+
+\tabbedblock{
+\bf{2014} \> The Buchwald Award\\[5pt]
+\>\+
+\textit{For the best performance leading to Honors Year in Applied Mathematics at UNSW.}
+}
+
+%------------------------------------------------
+
+\tabbedblock{
+\bf{2013} \> Summer Research Scholar\\[5pt]
+\>\+
+\textit{Markov Chain Monte Carlo techniques applied to graph mixing problems.}
+}
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT HISTORY SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Employment History}
+
+\job
+{Jan 2015 -}{Present}
+{Goldman Sachs, 65F Cheung Kong Center, Hong Kong}
+{http://www.gs.com}
+{Analyst - Fixed Income Algo and Quant Strat}
+{
+
+Worked on the roll out of market making and order management infrastructure. \\
+Co-developed a market simulation framework (L3 market data replay) for accurate simulation
+of trading and execution strategies.\\
+Developed basic a Gaussian risk model to improve performance of quoting strategies in simulation. \\
+Developed a genetic algorithm optimization system for trading system parameters. \\
+Investigated estimating order action (cancelation / trade) probabilities using machine learning techniques
+such as logistic regression and support vector machines.
+This work requires extensive use of C++ and Python (ipyparallel for distributed computing).\\
+
+
+\textbf{Technologies:} Python (2.7), C++, Java, numpy, scipy, sklearn, pandas, Slang (in-house), Excel, svn, cvs, git
+}
+%------------------------------------------------
+
+\job
+{Nov 2013 -}{Feb 2014}
+{Goldman Sachs, 47F governor Phillip Tower, Sydney}
+{http://www.gs.com}
+{Summer Intern}
+{
+Worked on transaction cost analysis reporting for agency equity algos (VWAP, TWAP, IS, etc).\\
+Developed market knowledge of the Australian equities market and the use of algos in equities markets in general. \\
+
+\textbf{Technologies:} Slang (in-house), Excel
+}
+
+
+%------------------------------------------------
+
+\job
+{Jan 2010 -}{Aug 2011}
+{eStats Capital, Sydney}
+{http://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapId=139377089}
+{Software Developer - Part Time and Full Time}
+{
+
+Developed monitoring and automation software in C\# and built trading and rules execution
+infrastructure in C++. Worked extensively with Object Trading's Front Runner API for market connectivity.\\
+\textbf{Technologies:} C\#, C++, boost, FrontRunner API (market connectivity), MySQL
+
+}
+
+
+%----------------------------------------------------------------------------------------
+%	IT/COMPUTING SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\skillgroup{Programming Languages / Technologies}
+{
+\textit{Python 2.7:} numpy, sklearn, pandas, scipy\\
+\textit{C\#}\\
+\textit{C++ (11):} boost\\
+\textit{Java} \\
+\textit{Google Protocol Buffers}\\
+\textit{MySQL}\\
+\LaTeX \\
+\textit{Octave / Matlab}
+
+}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\interestsgroup{
+\interest{Programming / Mathematics}
+\interest{Bike Riding}
+\interest{Photography}
+}
+
+%----------------------------------------------------------------------------------------
+%	REFEREE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Referees}
+
+\parbox{0.5\textwidth}{ % First block
+\begin{tabbing}
+\hspace{2.75cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Name} \> Bernard Orenstein \\ % Referee name
+{\bf Company} \> eStats Capital. \\ % Referee company
+{\bf Position} \> Managing Director \\ % Referee job title
+{\bf Contact} \> \href{mailto:berniespots@gmail.com}{berniespots@gmail.com} % Referee contact information
+\end{tabbing}}
+\hfill % Horizontal space between the two blocks
+\parbox{0.5\textwidth}{ % Second block
+\begin{tabbing}
+\hspace{2.75cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Name} \> Dr Chris Tisdell\\ % Referee name
+{\bf Organization} \> University of New South Wales \\ % Referee company
+{\bf Relationship} \> Honors Supervisor \\ % Referee job title
+{\bf Contact} \> \href{mailto:cct@unsw.edu.au}{cct@unsw.edu.au} % Referee contact information
+\end{tabbing}}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
